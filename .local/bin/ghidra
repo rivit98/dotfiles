@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+ghidra_dir=$(find /opt -type d -name "ghidra_*" -print 2>/dev/null | head -1)
+exec "$ghidra_dir/ghidraRun"
