@@ -9,4 +9,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 . "$HOME/.cargo/env"
-cargo install bat difftastic eza pwninit ropr dotter
+cargo install bat difftastic eza pwninit ropr
