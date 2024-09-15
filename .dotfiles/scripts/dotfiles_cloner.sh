@@ -7,5 +7,9 @@ function config {
     /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }
 
-config checkout master  -- scripts
-chmod +x $HOME/.dotfiles/scripts/*.sh
+pushd $HOME/.dotfiles
+
+config checkout master -- scripts
+chmod +x scripts/*.sh
+
+popd
