@@ -1,0 +1,18 @@
+[user]
+    email = albert98g@gmail.com
+    name = rivit98
+    signingkey = /home/rivit/.ssh/rivit.pub
+[gpg]
+    format = ssh
+[core]
+    autocrlf = input
+[init]
+    defaultBranch = master
+[safe]
+    directory=*
+[commit]
+    gpgsign = true
+[protocol "file"]
+    allow = always
+[diff]
+    external = difft

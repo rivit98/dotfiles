@@ -21,7 +21,7 @@ plugins=(
 	web-search
 	z
 
-
+	# TODO, add as git submodules
 	fzf-tab                   # https://github.com/Aloxaf/fzf-tab
 	ohmyzsh-full-autoupdate   # https://github.com/Pilaton/OhMyZsh-full-autoupdate
 	zsh-autosuggestions       # https://github.com/zsh-users/zsh-autosuggestions
