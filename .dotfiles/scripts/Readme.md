@@ -1,3 +1,5 @@
+# Guide
+- `wget -q -O - https://raw.githubusercontent.com/rivit98/dotfiles/master/.dotfiles/scripts/dotfiles_cloner.sh | sh`
 
 # Additional tools
 
