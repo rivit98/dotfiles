@@ -1,0 +1,12 @@
+[submodule "/home/rivit/.oh-my-zsh/custom/plugins/fzf-tab"]
+	path = /home/rivit/.oh-my-zsh/custom/plugins/fzf-tab
+	url = https://github.com/Aloxaf/fzf-tab.git
+[submodule "/home/rivit/.oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate"]
+	path = /home/rivit/.oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate
+	url = https://github.com/Pilaton/OhMyZsh-full-autoupdate.git
+[submodule "/home/rivit/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = /home/rivit/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "/home/rivit/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
+	path = /home/rivit/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git

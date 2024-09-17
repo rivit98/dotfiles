@@ -21,7 +21,6 @@ plugins=(
 	web-search
 	z
 
-	# TODO, add as git submodules
 	fzf-tab                   # https://github.com/Aloxaf/fzf-tab
 	ohmyzsh-full-autoupdate   # https://github.com/Pilaton/OhMyZsh-full-autoupdate
 	zsh-autosuggestions       # https://github.com/zsh-users/zsh-autosuggestions
@@ -64,7 +63,6 @@ alias rg="rg --threads $(nproc)"
 alias vi=nvim
 alias pwntemplate="cp ~/w/github/ctf-tools/pwn/solve.py ."
 
-# dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 function md5rename {
@@ -83,8 +81,8 @@ countdown() {
     done
 }
 
-# sshs() {
-# 	vars=$(alias | sed  -e 's/^/alias /')
-# 	echo $vars
-# 	ssh $1 -t "/bin/bash --rcfile <(echo $vars)"
-# }
+sshs() {
+	vars=$(alias | sed  -e 's/^/alias /')
+	escaped=$(printf '%q' $vars)
+	ssh $1 -t "/bin/bash --rcfile <(echo $escaped)"
+}

@@ -7,6 +7,6 @@ sudo ./install_as_root.sh
 ./install_dotfiles.sh
 
 echo cleanup
-apt-get autoremove -y
+sudo apt autoremove -y
 
-echo Done
+echo Done, please reboot
