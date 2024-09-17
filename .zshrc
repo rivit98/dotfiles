@@ -38,7 +38,7 @@ setopt hist_ignore_space
 setopt hist_ignore_dups
 
 
-export PATH=$PATH:/home/$USER/.local/bin:/home/$USER/go/bin
+export PATH=$PATH:/home/$USER/.local/bin:/home/$USER/go/bin:/home/$USER/.cargo/bin
 
 export EDIOTR=nvim
 export FZF_DEFAULT_OPTS=" \
@@ -53,6 +53,7 @@ export FZF_DEFAULT_OPTS=" \
 # aliases
 alias linode="ssh root@rivit.dev"
 alias linode2="ssh root@172.104.229.196"
+alias linode3="ssh root@23.92.22.106"
 alias ipy="ipython3"
 alias gdb="gdb --quiet"
 alias yt-dlpmp3="yt-dlp -x --audio-format mp3 -o \"%(upload_date)s__%(title)s.%(ext)s\" -f 'bestvideo[ext=mp4][vcodec!^=av0][vcodec!^=av1]+bestaudio[ext=m4a]/mp4/best' -ciw"
