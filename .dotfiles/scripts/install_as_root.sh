@@ -23,6 +23,7 @@ snap refresh
 snap install dbeaver-ce
 snap install code --classic
 snap install nvim --classic
+snap install rustup --classic
 snap install firefox
 snap install obsidian --classic
 snap install onlyoffice-desktopeditors
@@ -36,3 +37,5 @@ snap install rustrover --classic
 # install rest
 apt-get update
 apt-get install -y sublime-text sublime-merge
+
+rustup toolchain install stable
