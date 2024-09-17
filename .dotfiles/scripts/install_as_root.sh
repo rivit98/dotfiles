@@ -38,4 +38,3 @@ snap install rustrover --classic
 apt-get update
 apt-get install -y sublime-text sublime-merge
 
-rustup toolchain install stable

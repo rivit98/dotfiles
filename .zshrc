@@ -38,11 +38,10 @@ setopt hist_ignore_space
 setopt hist_ignore_dups
 
 
-export PATH=$PATH:/home/$USER/.local/bin:/home/$USER/go/bin:/home/$USER/.cargo/bin
+export PATH=$PATH:/home/$USER/.local/bin:/home/$USER/go/bin
 
 export EDIOTR=nvim
 export FZF_DEFAULT_OPTS=" \
---height 40% \
 --reverse \
 --border \
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
