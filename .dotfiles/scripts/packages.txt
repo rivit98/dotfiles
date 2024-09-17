@@ -24,6 +24,7 @@ htop
 ipython3
 jq
 jupyter-notebook
+liblzma-dev
 libssl-dev
 lutris
 make
@@ -39,6 +40,7 @@ pkg-config
 python3
 python3-pip
 python3-virtualenv
+python3-virtualenvwrapper
 qemu-system
 qemu-user
 qnapi
@@ -58,4 +60,3 @@ wireshark
 zip
 zsh
 zstd
-liblzma-dev
