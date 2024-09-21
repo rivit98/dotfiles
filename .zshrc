@@ -63,9 +63,22 @@ alias rg="rg --threads $(nproc)"
 alias vi=nvim
 alias pwntemplate="cp ~/w/github/ctf-tools/pwn/solve.py ."
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-function md5rename {
+dotfiles() {
+    case "$1" in
+        listall)
+            shift
+            dotfiles ls-tree --full-tree -r --name-only HEAD "$@"
+            ;;
+        *)
+            /usr/bin/env git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME" "$@"
+            ;;
+    esac
+}
+
+compdef dotfiles='git'
+
+md5rename() {
 	filename=$(basename -- "$1")
 	extension="${filename##*.}"
 	filename="${filename%.*}"
@@ -86,3 +99,7 @@ sshs() {
 	escaped=$(printf '%q' $vars)
 	ssh $1 -t "/bin/bash --rcfile <(echo $escaped)"
 }
+
+
+
+#TODO: split aliases, funcs, exports, extras into a separate files

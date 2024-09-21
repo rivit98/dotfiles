@@ -12,3 +12,5 @@ function config {
 mkdir -p .config-backup
 config checkout -f master
 config config status.showUntrackedFiles no
+config submodule init
+config submodule update
