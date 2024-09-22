@@ -4,9 +4,9 @@
 [submodule ".oh-my-zsh/custom/plugins/fzf-tab"]
 	path = .oh-my-zsh/custom/plugins/fzf-tab
 	url = https://github.com/Aloxaf/fzf-tab
-[submodule ".oh-my-zsh/custom/plugins/OhMyZsh-full-autoupdate"]
-	path = .oh-my-zsh/custom/plugins/OhMyZsh-full-autoupdate
-	url = https://github.com/Pilaton/OhMyZsh-full-autoupdate
 [submodule ".oh-my-zsh/custom/plugins/zsh-autosuggestions"]
 	path = .oh-my-zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule ".oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate"]
+	path = .oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate
+	url = https://github.com/Pilaton/ohmyzsh-full-autoupdate

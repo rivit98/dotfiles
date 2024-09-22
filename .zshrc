@@ -37,7 +37,7 @@ setopt hist_ignore_space
 setopt hist_ignore_dups
 
 
-export PATH=$PATH:/home/$USER/.local/bin:/home/$USER/go/bin
+export PATH=$PATH:$HOME/.local/bin:$HOME/go/bin:$HOME/.cargo/bin
 
 export EDIOTR=nvim
 export FZF_DEFAULT_OPTS=" \

@@ -38,3 +38,6 @@ snap install rustrover --classic
 apt-get update
 apt-get install -y sublime-text sublime-merge
 
+
+update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+

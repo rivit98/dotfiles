@@ -10,6 +10,5 @@ function config {
 pushd $HOME/.dotfiles
 
 config checkout master -- scripts
-chmod +x scripts/*.sh
 
 popd
