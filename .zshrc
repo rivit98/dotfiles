@@ -1,9 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="agnoster"
-# crunch
+# agnoster
 # jispwoso
 # kafeitu
-# risto
 
 TERM=xterm-256color
 
@@ -98,6 +97,10 @@ sshs() {
 	vars=$(alias | sed  -e 's/^/alias /')
 	escaped=$(printf '%q' $vars)
 	ssh $1 -t "/bin/bash --rcfile <(echo $escaped)"
+}
+
+ts() {
+    python -c 'import datetime;import sys;print(datetime.datetime.utcfromtimestamp(int(sys.argv[1].strip()[:10])))'
 }
 
 
