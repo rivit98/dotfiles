@@ -7,7 +7,7 @@
     "editor.dropIntoEditor.enabled": false,
     "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace",
     "editor.fontLigatures": false,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.roundedSelection": false,
     "editor.screenReaderAnnounceInlineSuggestion": false,
     "editor.selectionClipboard": false,
