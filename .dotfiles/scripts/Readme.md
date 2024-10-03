@@ -7,6 +7,7 @@
 - ida <https://hex-rays.com/ida-free>
 - burp suite <https://portswigger.net/burp/communitydownload>
 - QT creator <https://www.qt.io/product/development-tools>
+- pwndbg <https://github.com/pwndbg/pwndbg>
 
 # Fonts
 
