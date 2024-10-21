@@ -60,7 +60,7 @@ alias sync-music="(cd /home/rivit/workspace/tools && ./music-sync.sh)"
 alias silencer="while :; do ls >/dev/null; sleep 0.0001; done"
 alias rg="rg --threads $(nproc)"
 alias vi=nvim
-alias pwntemplate="cp ~/w/github/ctf-tools/pwn/solve.py ."
+alias pwntemplate="cp /w/github/ctf-tools/pwn/solve.py ."
 
 
 dotfiles() {

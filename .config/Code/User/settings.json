@@ -12,7 +12,6 @@
     "editor.screenReaderAnnounceInlineSuggestion": false,
     "editor.selectionClipboard": false,
     "explorer.confirmDelete": false,
-    "explorer.excludeGitIgnore": true,
     "files.autoSave": "onFocusChange",
     "files.eol": "\n",
     "git.autofetch": true,
