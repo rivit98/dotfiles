@@ -19,3 +19,4 @@
 - <https://github.com/keystone-engine/keypatch>
 - <https://github.com/junron/auto-enum>
 - <https://plugins.hex-rays.com/hexinlay>
+- <https://github.com/danigargu/deREferencing>

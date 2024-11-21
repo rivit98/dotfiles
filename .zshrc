@@ -31,15 +31,25 @@ zstyle :omz:plugins:ssh-agent identities rivit
 source $ZSH/oh-my-zsh.sh
 
 # history
-setopt inc_append_history
-setopt hist_ignore_space
-setopt hist_ignore_dups
+HISTSIZE=100000
+SAVEHIST=10000
+setopt hist_ignore_all_dups     # when runing a command several times, only store one
+setopt hist_reduce_blanks       # reduce whitespace in history
+setopt hist_ignore_space        # do not remember commands starting with space
+setopt histfcntllock            # use F_SETLCKW
+setopt share_history            # share history among sessions
+setopt extended_history         # timestamp for each history entry
+setopt hist_verify              # reload full command when runing from history
+setopt hist_expire_dups_first   # remove dups when max size reached
+setopt inc_append_history       # append to history once executed
+setopt notify                   # report the status of backgrounds jobs immediately
 
 
 export PATH=$PATH:$HOME/.local/bin:$HOME/go/bin:$HOME/.cargo/bin
 
 export EDIOTR=nvim
 export FZF_DEFAULT_OPTS=" \
+--height 40% \
 --reverse \
 --border \
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
@@ -47,9 +57,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 
 
-# aliases
 alias linode="ssh root@rivit.dev"
-alias linode2="ssh root@172.104.229.196"
 alias linode3="ssh root@23.92.22.106"
 alias ipy="ipython3"
 alias gdb="gdb --quiet"
@@ -93,16 +101,6 @@ countdown() {
     done
 }
 
-sshs() {
-	vars=$(alias | sed  -e 's/^/alias /')
-	escaped=$(printf '%q' $vars)
-	ssh $1 -t "/bin/bash --rcfile <(echo $escaped)"
-}
-
 ts() {
     python -c 'import datetime;import sys;print(datetime.datetime.utcfromtimestamp(int(sys.argv[1].strip()[:10])))'
 }
-
-
-
-#TODO: split aliases, funcs, exports, extras into a separate files
