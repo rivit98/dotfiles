@@ -25,6 +25,7 @@ snap install go --classic
 snap install pycharm-community --classic
 snap install intellij-idea-community --classic
 snap install rustrover --classic
+snap install zig --beta --classic
 
 
 update-alternatives --install /usr/bin/python python /usr/bin/python3 1
