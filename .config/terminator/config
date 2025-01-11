@@ -7,8 +7,8 @@
   zoom_normal = ""
   rotate_cw = ""
   rotate_ccw = ""
-  copy = <Primary>c
-  paste = <Primary>v
+  copy = <Primary><Shift>c
+  paste = <Primary><Shift>v
 [profiles]
   [[default]]
     background_darkness = 0.85
