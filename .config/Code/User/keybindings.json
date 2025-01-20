@@ -1,0 +1,13 @@
+[
+  {
+    "key": "ctrl+/", // whatever keybindings you want
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "editor.action.commentLine",
+        "cursorDown"
+      ]
+    },
+    "when": "editorTextFocus"
+  }
+]

@@ -47,7 +47,6 @@ ripgrep
 rsync
 snapd
 strace
-terminator
 tmux
 unrar
 unzip
