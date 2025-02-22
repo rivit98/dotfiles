@@ -23,7 +23,6 @@ hashcat
 htop
 ipython3
 jq
-jupyter-notebook
 liblzma-dev
 libssl-dev
 lutris
