@@ -21,6 +21,7 @@ git
 hashcash
 hashcat
 htop
+inxi
 ipython3
 jq
 liblzma-dev
