@@ -38,8 +38,6 @@ patchelf
 pkg-config
 python3
 python3-pip
-python3-poetry
-python3-virtualenv
 qemu-system
 qemu-user
 qnapi
@@ -52,7 +50,6 @@ unrar
 unzip
 vim
 virtualbox
-virtualenvwrapper
 vlc
 wget
 wireshark
