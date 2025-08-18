@@ -6,7 +6,6 @@
 - ghidra <https://github.com/NationalSecurityAgency/ghidra>
 - ida <https://hex-rays.com/ida-free>
 - burp suite <https://portswigger.net/burp/communitydownload>
-- QT creator <https://www.qt.io/product/development-tools>
 - pwndbg <https://github.com/pwndbg/pwndbg>
 - XELFViewer https://github.com/horsicq/XELFViewer
 - imhex https://github.com/WerWolv/ImHex
@@ -17,7 +16,6 @@
 
 # IDA plugins
 
-- <https://github.com/endofunky/ida-nord-theme>
 - <https://github.com/keystone-engine/keypatch>
 - <https://github.com/junron/auto-enum>
 - <https://plugins.hex-rays.com/hexinlay>
