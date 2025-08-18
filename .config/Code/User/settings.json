@@ -39,5 +39,34 @@
     "workbench.remoteIndicator.showExtensionRecommendations": false,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.tree.renderIndentGuides": "always",
-    "workbench.welcomePage.walkthroughs.openOnInstall": false
+    "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    "files.simpleDialog.enable": true,
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "python.createEnvironment.trigger": "off",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "hadolint.cliOptions": [],
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "docker.extension.enableComposeLanguageServer": false
 }

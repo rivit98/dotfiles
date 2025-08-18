@@ -40,7 +40,6 @@ python3
 python3-pip
 qemu-system
 qemu-user
-qnapi
 ripgrep
 rsync
 snapd
@@ -49,7 +48,8 @@ tmux
 unrar
 unzip
 vim
-virtualbox
+virt-manager
+virtiofsd
 vlc
 wget
 wireshark
