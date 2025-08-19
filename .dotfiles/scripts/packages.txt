@@ -29,6 +29,7 @@ libssl-dev
 lutris
 make
 mp3gain
+mpv
 nasm
 neofetch
 ntfs-3g
@@ -50,7 +51,6 @@ unzip
 vim
 virt-manager
 virtiofsd
-vlc
 wget
 wireshark
 zip
