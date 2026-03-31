@@ -16,8 +16,6 @@ plugins=(
 	rsync
 	ssh-agent
 	terraform
-	virtualenvwrapper
-	web-search
 	z
 
 	fzf-tab                   # https://github.com/Aloxaf/fzf-tab
@@ -61,7 +59,7 @@ alias linode="ssh root@rivit.dev"
 alias linode3="ssh root@23.92.22.106"
 alias ipy="ipython3"
 alias gdb="gdb --quiet"
-alias yt-dlpmp3="yt-dlp -f "bestaudio/best" -x --audio-format mp3 -o \"%(upload_date)s__%(title)s.%(ext)s\" --audio-quality 0 -ciw"
+alias yt-dlpmp3="yt-dlp -f "bestaudio/best" -x --audio-format mp3 -o \"%(upload_date)s__%(title)s.%(ext)s\" --audio-quality 0 -ciw --cookies-from-browser firefox"
 alias ipx="grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}'"
 alias download-vids="(cd /home/rivit/workspace/tools/video-updater && /home/rivit/workspace/tools/video-updater/run.sh)"
 alias sync-music="(cd /home/rivit/workspace/tools && ./music-sync.sh)"
@@ -69,7 +67,8 @@ alias silencer="while :; do ls >/dev/null; sleep 0.0001; done"
 alias rg="rg --threads $(nproc)"
 alias vi=nvim
 alias pwntemplate="cp /w/github/ctf-tools/pwn/solve.py ."
-
+alias ctfvenv="source ~/.virtualenvs/ctf/bin/activate"
+alias ff="find . -type f -name"
 
 dotfiles() {
     case "$1" in
@@ -101,6 +100,11 @@ countdown() {
     done
 }
 
-ts() {
-    python -c 'import datetime;import sys;print(datetime.datetime.utcfromtimestamp(int(sys.argv[1].strip()[:10])))'
-}
+if [ -e /home/rivit/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rivit/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# opencode
+export PATH=/home/rivit/.opencode/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

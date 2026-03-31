@@ -10,7 +10,6 @@ deluge
 ffmpeg
 file
 filezilla
-flameshot
 fzf
 gcc
 gdb
@@ -24,6 +23,7 @@ htop
 inxi
 ipython3
 jq
+kde-spectacle
 liblzma-dev
 libssl-dev
 lutris
@@ -31,7 +31,6 @@ make
 mp3gain
 mpv
 nasm
-neofetch
 ntfs-3g
 obs-studio
 openvpn
