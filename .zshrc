@@ -12,7 +12,6 @@ plugins=(
 	docker-compose
 	fzf
 	git
-	rust
 	rsync
 	ssh-agent
 	terraform
@@ -27,6 +26,8 @@ plugins=(
 zstyle :omz:plugins:ssh-agent identities rivit
 
 source $ZSH/oh-my-zsh.sh
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
+
 
 # history
 HISTSIZE=100000
@@ -56,7 +57,6 @@ export FZF_DEFAULT_OPTS=" \
 
 
 alias linode="ssh root@rivit.dev"
-alias linode3="ssh root@23.92.22.106"
 alias ipy="ipython3"
 alias gdb="gdb --quiet"
 alias yt-dlpmp3="yt-dlp -f "bestaudio/best" -x --audio-format mp3 -o \"%(upload_date)s__%(title)s.%(ext)s\" --audio-quality 0 -ciw --cookies-from-browser firefox"
