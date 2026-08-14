@@ -1,7 +1,6 @@
 13xforever.language-x86-64-assembly
 4ops.terraform
 docker.docker
-eamodio.gitlens
 fabiospampinato.vscode-diff
 fill-labs.dependi
 foxundermoon.shell-format
@@ -10,7 +9,6 @@ golang.go
 graphql.vscode-graphql
 graphql.vscode-graphql-execution
 graphql.vscode-graphql-syntax
-gruntfuggly.todo-tree
 juanblanco.solidity
 llvm-vs-code-extensions.vscode-clangd
 mechatroner.rainbow-csv
@@ -38,3 +36,4 @@ tamasfe.even-better-toml
 timonwong.shellcheck
 tomoki1207.pdf
 yzhang.markdown-all-in-one
+ziglang.vscode-zig
