@@ -20,5 +20,4 @@
 - <https://github.com/junron/auto-enum>
 - <https://plugins.hex-rays.com/hexinlay>
 - <https://github.com/danigargu/deREferencing>
-- <https://github.com/Accenture/VulFi>
 - <https://github.com/a1ext/auto_re>

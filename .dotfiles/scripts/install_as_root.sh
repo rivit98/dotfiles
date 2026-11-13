@@ -16,11 +16,9 @@ snap install nvim --classic
 snap install rustup --classic
 snap install firefox
 snap install obsidian --classic
-snap install onlyoffice-desktopeditors
 snap install kubectl --classic
 snap install go --classic
 snap install zig --classic --beta
-snap install ghostty --classic
 snap install thunderbird
 snap install ghostty --classic
 
